@@ -1,0 +1,38 @@
+server:
+  port: 9090
+
+spring:
+  data:
+    redis:
+      port: 6379
+      host: 192.168.56.101
+  servlet:
+    multipart:
+      max-file-size: 10MB
+
+person:
+  name: 张三
+  age: 18
+  birthday: 2010/10/12 12:12:12
+  like: true
+  child:
+    name: 李四
+    age: 12
+    birthday: 2018/10/12
+#    text: ["abc","def"]
+    text:
+      - abc
+      - def
+  dogs:
+    - name: 小黑
+      age: 3
+    - name: 小白
+      age: 2
+  cats:
+    c1:
+      name: 小蓝
+      id: 3
+    c2:
+      name: 小灰
+      id: 2
+    c3: {name: 小绿, id: 1}
