@@ -1,2 +1,2 @@
-# shring-boot-3
+# spring-boot-3
 springboot3 practice project
